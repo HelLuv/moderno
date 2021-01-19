@@ -36,15 +36,137 @@
 						</a>
 					</div>
 					<div class="header__box">
-						<a class="notification header__circle" href="#"></a>
-						<a class="message header__circle" href="#"></a>
-						<a class="basket header__circle" href="#"></a>
-						<a class="user" href="#"></a>
-						<a class="header__btn header__btn-login" href="#">Login</a>
-						<a class="header__btn header__btn-register" href="#">Register</a>
+
+						<div class="notification__box">
+							<a class="notification header__circle active icon-bell-o" href="#">
+								<span>8</span>
+							</a>
+							<div class="circle__menu notification__menu">
+								<a href="#" class="circle__item icon-bell-o icons-color">
+									<img class="circle__images" src="images/content/user-message-1.png" alt="">
+									<div class="circle__info">
+										<div class="circle__info-theme">Need WP Help!</div>
+										<div class="circle__info-date">19 Jan, 2021</div>
+									</div>
+								</a>
+								<a href="#" class="circle__item icon-bell-o">
+									<img class="circle__images" src="images/content/user-message-2.png" alt="">
+									<div class="circle__info">
+										<div class="circle__info-theme">Need WP Help!</div>
+										<div class="circle__info-date">19 Jan, 2021</div>
+									</div>
+								</a>
+								<a href="#" class="circle__item icon-bell-o">
+									<img class="circle__images" src="images/content/user-message-3.png" alt="">
+									<div class="circle__info">
+										<div class="circle__info-theme">Psd Template Help!</div>
+										<div class="circle__info-date">19 Jan, 2021</div>
+									</div>
+								</a>
+							</div>
+						</div>
 					</div>
+
+					<div class="message__box">
+						<a class="message header__circle active icon-envelope-o" href="#">
+							<span>5</span>
+						</a>
+						<div class="circle__menu message__menu">
+							<a href="#" class="circle__item icon-envelope-o icons-color">
+								<img class="circle__images" src="images/content/user-message-1.png" alt="">
+								<div class="circle__info">
+									<div class="circle__info-name">Kazi Fahim</div>
+									<div class="circle__info-theme">Need WP Help!</div>
+									<div class="circle__info-date">19 Jan, 2021</div>
+								</div>
+							</a>
+							<a href="#" class="circle__item icon-envelope-o">
+								<img class="circle__images" src="images/content/user-message-2.png" alt="">
+								<div class="circle__info">
+									<div class="circle__info-name">Richi Lenal
+									</div>
+									<div class="circle__info-theme">Need WP Help!</div>
+									<div class="circle__info-date">19 Jan, 2021</div>
+								</div>
+							</a>
+							<a href="#" class="circle__item icon-mail-reply">
+								<img class="circle__images" src="images/content/user-message-3.png" alt="">
+								<div class="circle__info">
+									<div class="circle__info-name">PsdBosS
+									</div>
+									<div class="circle__info-theme">Psd Template Help!</div>
+									<div class="circle__info-date">19 Jan, 2021</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="basket__box ">
+						<a class="basket header__circle active icon-shopping-cart" href="#">
+							<span>8</span>
+						</a>
+						<div class="circle__menu basket__menu">
+							<a href="#" class="circle__item">
+								<img class="circle__images" src="images/content/basket-item-1.png" alt="">
+								<div class="circle__info">
+									<div class="circle__info-name">Grand Ballet</div>
+									<div class="circle__info-theme">WordPress</div>
+									<div class="circle__info-price">$59</div>
+								</div>
+							</a>
+							<a href="#" class="circle__item">
+								<img class="circle__images" src="images/content/basket-item-2.png" alt="">
+								<div class="circle__info">
+									<div class="circle__info-name">Apple Device
+									</div>
+									<div class="circle__info-theme">WordPress</div>
+									<div class="circle__info-price">$59</div>
+								</div>
+							</a>
+							<div class="basket__summ">
+								<div class="basket__title">
+									<div class="basket__summ-total">Total</div>
+									<div class="basket__summ-price">$118</div>
+								</div>
+								<a class="basket__btn " href="#">Go to Cart</a>
+								<a class="basket__btn basket__btn-checkout" href="#">Go to Checkout</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="user__box">
+						<a class="user" href="#">
+							<div class="user__inner">
+								<div class="user__images">
+									<img src="images/content/user_login.jpg" alt="">
+								</div>
+								<div class="user__info">
+									<div class="user__name">Mike Hussy</div>
+									<div class="user__money">
+										$171.00
+									</div>
+								</div>
+							</div>
+						</a>
+						<div class="user__menu">
+							<ul>
+								<li><a class="angle-right" href="#">Profile Page</a></li>
+								<li><a class="angle-right" href="#">Portfolio</a></li>
+								<li><a class="angle-right" href="#">Account Setting</a></li>
+								<li><a class="angle-right" href="#">Downloads</a></li>
+								<li><a class="angle-right" href="#">Wishlist</a></li>
+								<li><a class="angle-right" href="#">Upload Item</a></li>
+								<li><a class="angle-right" href="#">Statement</a></li>
+								<li><a class="angle-right" href="#">Withdraws</a></li>
+							</ul>
+						</div>
+					</div>
+					<a class="header__btn header__btn-login header__btn-login--off" href="#">Login</a>
+					<a class="header__btn header__btn-logout header__btn-login--off" href="#">Register</a>
+					<a class="header__btn header__btn-register header__btn-login--on" href="#">Logout</a>
 				</div>
 			</div>
+		</div>
 		</div>
 		<div class="header__menu">
 			<div class="container">
@@ -145,8 +267,7 @@
 				<div class="products__inner-box">
 
 					<div class="product__item mix component" data-order="1">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-1.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-1.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -172,8 +293,7 @@
 					</div>
 
 					<div class="product__item mix plugin allnew" data-order="2">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-2.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-2.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -199,8 +319,7 @@
 					</div>
 
 					<div class="product__item mix wordpress popular" data-order="3">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-3.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-3.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -226,8 +345,7 @@
 					</div>
 
 					<div class="product__item mix psd popular" data-order="4">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-4.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-4.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -253,8 +371,7 @@
 					</div>
 
 					<div class="product__item mix joomla allnew" data-order="5">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-5.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-5.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -280,8 +397,7 @@
 					</div>
 
 					<div class="product__item mix wordpress" data-order="6">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-6.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-6.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -307,8 +423,7 @@
 					</div>
 
 					<div class="product__item mix component" data-order="7">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-7.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-7.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -334,8 +449,7 @@
 					</div>
 
 					<div class="product__item mix psd" data-order="8">
-						<a class="product__item-img" href="#"
-							style="background-image: url(images/content/product-item-8.jpg);"></a>
+						<a class="product__item-img" href="#" style="background-image: url(images/content/product-item-8.jpg);"></a>
 						<div class="product__item-content">
 							<div class="product__item-name">
 								<a class="product__item-title" href="#">
@@ -376,8 +490,7 @@
 			<div class="product-slider__inner">
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-1.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-1.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -403,8 +516,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-2.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-2.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -430,8 +542,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-3.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-3.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -457,8 +568,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-4.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-4.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -485,8 +595,7 @@
 
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-1.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-1.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -512,8 +621,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-2.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-2.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -539,8 +647,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-3.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-3.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -566,8 +673,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-4.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-4.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -593,8 +699,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-1.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-1.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -620,8 +725,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-2.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-2.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -647,8 +751,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-3.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-3.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -674,8 +777,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-4.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-4.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -701,8 +803,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-1.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-1.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -728,8 +829,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-2.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-2.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -755,8 +855,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-3.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-3.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -782,8 +881,7 @@
 				</div>
 
 				<div class="product__item">
-					<a class="product__item-img" href="#"
-						style="background-image: url(images/slider/slider-item-4.jpg);"></a>
+					<a class="product__item-img" href="#" style="background-image: url(images/slider/slider-item-4.jpg);"></a>
 					<div class="product__item-content">
 						<div class="product__item-name">
 							<a class="product__item-title" href="#">
@@ -826,8 +924,7 @@
 							<metadata>
 								Created by potrace 1.15, written by Peter Selinger 2001-2017
 							</metadata>
-							<g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000"
-								stroke="none">
+							<g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
 								<path d="M4522 12739 c-1038 -46 -2010 -476 -2699 -1193 -498 -518 -810 -1145
 					  -902 -1816 -26 -183 -31 -421 -31 -1452 l0 -1088 -420 0 -421 0 -24 -25 -25
 					  -24 0 -3426 0 -3426 25 -24 24 -25 4659 0 4659 0 21 23 22 23 0 3428 0 3427
@@ -903,9 +1000,9 @@
 
 				<div class="advantages__item">
 					<div class="advantages__item-images">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							x="0px" y="0px" width="86px" height="76px" viewBox="0 0 1000 1000"
-							enable-background="new 0 0 1000 1000" xml:space="preserve">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+							y="0px" width="86px" height="76px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000"
+							xml:space="preserve">
 							<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
 							<g>
 								<g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)">
