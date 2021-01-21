@@ -1,8 +1,7 @@
 $(function () {
 	// $(".rate-star").rateYo({
-	// 	rating: 5.0,
+	// 	rating: 5,
 	// 	starWidth: "12px",
-	// 	ratedFill: "#ffa726",
 	// 	readOnly: true
 	// });
 
