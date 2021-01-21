@@ -109,21 +109,17 @@
 		}
 	}
 	.header__box {
-		display: none;
-	}
-	.header__box {
 		transition: all 0.5s;
 		position: absolute;
 		background-color: #fff;
 		height: 68px;
 		left: 100%;
 		right: -100%;
+		z-index: 2;
 		&.active {
-			display: flex;
 			height: 68px;
 			left: 70px;
 			right: 50px;
-			z-index: 2;
 		}
 	}
 	.menu__list {
