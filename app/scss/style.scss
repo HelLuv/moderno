@@ -1610,13 +1610,15 @@ button.icon-unsorted {
 
 // start page 404
 .page-404__wrapper,
-.about__wrapper {
+.about__wrapper,
+.contact__wrapper {
 	border: 1px solid #dcdcdc;
 	background-color: #fff;
 	margin-bottom: 150px;
 }
 .page-404__head,
-.about__head {
+.about__head,
+.contact__head {
 	color: #444;
 	font-size: 24px;
 	@include f500;
@@ -1697,4 +1699,122 @@ button.icon-unsorted {
 	}
 }
 // end about
+
+// start contact
+.contact {
+}
+.contact__head {
+	padding: 23px 40px;
+}
+.contact__inner {
+	padding: 35px 40px 15px;
+}
+.contact__map {
+	margin-bottom: 50px;
+	iframe {
+		width: 100%;
+		height: 415px;
+	}
+}
+.contact__box {
+	display: flex;
+}
+.contact__info {
+	margin-right: 30px;
+	max-width: 330px;
+	width: 100%;
+}
+.contact__info-item {
+	margin-bottom: 30px;
+}
+.contact__info-title {
+	padding-bottom: 25px;
+	position: relative;
+	font-size: 20px;
+	color: $bg;
+	font-weight: 500;
+	font-family: "Roboto", sans-serif !important;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	&::after {
+		content: "";
+		width: 44px;
+		height: 4px;
+		background-color: $green;
+		left: 40px;
+		bottom: 0;
+		position: absolute;
+	}
+	&::before {
+		font-family: "icomoon";
+		color: $green;
+		font-size: 24px;
+		position: absolute;
+		left: 0;
+	}
+}
+.contact__info-content {
+	color: #707070;
+	font-size: 15px;
+	padding-left: 40px;
+	max-width: 270px;
+	width: 100%;
+}
+.contact__form {
+	width: 100%;
+	input {
+		border: none;
+		display: inline-block;
+		height: 43px;
+		background-color: #f1f4f5;
+		width: 350px;
+		padding: 0 17px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		&::placeholder {
+			color: #7a7a7a;
+			font-size: 15px;
+		}
+	}
+	input + input {
+		margin-left: 25px;
+	}
+	textarea {
+		background-color: #f1f4f5;
+		border: none;
+		padding: 13px 17px;
+		width: 100%;
+		display: block;
+		resize: none;
+		height: 193px;
+		margin-bottom: 23px;
+		&::placeholder {
+			color: #7a7a7a;
+			font-size: 15px;
+		}
+	}
+	button {
+		border: none;
+		color: #fff;
+		font-size: 16px;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: $green;
+		@include f700;
+		padding: 20px 5px;
+		width: 190px;
+	}
+}
+.contact__form-title {
+	font-size: 24px;
+	@include f500;
+	margin-bottom: 16px;
+	color: #333;
+}
+.contact__form-row {
+	display: flex;
+	justify-content: space-between;
+}
+//end contact
+
 @import "media";
